@@ -5,7 +5,7 @@ const isVisible = ref(false)
 
 const changeIcon = () => {
   if (isVisible.value == true) {
-    return { backgroundImage: 'url(./assets/images/icon-menu-close.svg)' }
+    return { backgroundImage: 'url(/assets/images/icon-menu-close.svg)' }
   }
 }
 
